@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightBackgroud">#e9e5e6</color>
+
+    <color name="colorMainStyle">#ffffff</color>
+
+    <color name="colorMainButton">#bb5959</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+
+    <!-- ad status TextView backgroud color-->
+    <color name="ad_status_button">#cec8c9</color>
+
+    <color name="popup_dropdown_color">#FF0000</color>
+    <color name="popup_withdrow_color">#000000</color>
+
+</resources>

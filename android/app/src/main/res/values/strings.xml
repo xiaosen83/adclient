@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">AdEverywhere</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="me">My</string>
+    <string name="setting">Setting</string>
+    <string name="driver_order">Order</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="client_push">Advertising</string>
+    <string name="portal_join_drivers">%d drivers has joined us</string>
+    <string name="portal_join_clients">%d clients has joined us</string>
+    <string name="title_home_driver">Driver</string>
+    <string name="title_home_client">Client</string>
+    <string name="title_home">Home</string>
+    <string name="title_ad">Advertise</string>
+    <string name="title_me">My</string>
+    <string name="title_reserve_ad">Reserve AD</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_delete">Delete</string>
+
+    <!-- Home page -->
+    <string name="income_day">Today income:</string>
+    <string name="income_month">Month income:</string>
+    <string name="income_total">Total income:</string>
+    <string name="order_now">Order now</string>
+    <string name="ad_status_pending">Pending</string>
+    <string name="ad_status_ready">Ready</string>
+    <string name="ad_status_finished">Finished</string>
+    <string name="period_format">%d months</string>
+    <string name="car_format">%d cars</string>
+    <string name="car_left_format">%1$d/%2$d cars</string>
+    <string name="driver_join_number">Driver Joined us:</string>
+    <string name="client_join_number">Client Joined us:</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_phone">Email, Phone</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="send_sms_code">SMS code</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sign_in_diff_portal">Sign in to different portal</string>
+    <string name="register">No account yet? Join us</string>
+    <string name="title_activity_login_driver">Sign in (Driver)</string>
+    <string name="title_activity_login_client">Sign in (Client)</string>
+    <string name="title_activity_login_vendor">Sign in (Vendor)</string>
+    <string name="role_selection_driver">Driver</string>
+    <string name="role_selection_client">Client</string>
+    <string name="role_selection_vendor">Vendor</string>
+
+
+    <string name="title_activity_portal">PortalActivity</string>
+    <string name="driver_portal">I am Driver</string>
+    <string name="client_portal">I am Client</string>
+    <string name="vendor_portal">I am Vendor</string>
+
+    <!-- me page-->
+    <string name="myad">My AD</string>
+    <string name="mycar">My Car</string>
+    <string name="mycoupon">My Coupon</string>
+    <string name="me_info">Basic info</string>
+    <string name="me_certificate">Certificate</string>
+    <string name="me_security">Security</string>
+    <string name="me_help">Contact us</string>
+    <string name="me_bank">Bank</string>
+    <string name="me_settings">Settings</string>
+    <string name="me_info_">personal basic info</string>
+    <string name="me_certificate_">id, car id</string>
+    <string name="me_security_">change password</string>
+    <string name="me_help_">contact us on line</string>
+    <string name="me_expect_income">Expect income:</string>
+    <string name="me_tab_ad_current">Current AD</string>
+    <string name="me_tab_ad_pending">Pending AD</string>
+    <string name="me_tab_ad_history">History AD</string>
+    <string name="me_not_login_text">Not login</string>
+    <string name="me_logout_text">Logout</string>
+    <string name="me_income">Income:</string>
+    <string name="me_certed">Certificated</string>
+    <string name="me_not_certed">Not Certificated</string>
+
+    <!-- order page -->
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+    <string name="order_cars">Cars: </string>
+    <string name="order_left">Left: </string>
+    <string name="order_period">Period: </string>
+    <string name="order_month">Month</string>
+    <string name="order_start">Start:</string>
+
+    <!-- client push page -->
+    <string name="client_fill_ad_info_title">Fill AD Information</string>
+    <string name="client_company">Company:</string>
+    <string name="client_phone">Phone;</string>
+    <string name="client_address">Address:</string>
+    <string name="client_cars">Cars:</string>
+    <string name="client_car_type">Type:</string>
+    <string name="client_ad_description">Description:</string>
+    <string name="client_ad_cars">Cars:</string>
+    <string name="client_ad_car_type">Car type:</string>
+    <string name="client_ad_car_company">Car company:</string>
+    <string name="client_ad_start_date">Start:</string>
+    <string name="client_ad_period">Period:</string>
+    <string name="client_ad_description_hint">AD for latest car</string>
+    <string name="client_ad_cars_hint">500</string>
+    <string name="client_ad_car_type_hint">10-15W</string>
+    <string name="client_ad_car_company_hint">VOLVO(Optional)</string>
+    <string name="client_ad_start_date_hint">2016-09-01</string>
+    <string name="client_ad_period_hint">3 months</string>
+    <string name="client_request">Request Now</string>
+
+    <string name="client_throw">Advertising Now</string>
+    <string name="client_income">My income</string>
+    <string name="client_income_day">Today</string>
+    <string name="client_income_month">Month</string>
+    <string name="client_income_total">Total</string>
+    <string name="client_my_cars">My Cars</string>
+
+    <string name="me_address">Wujiaochange 1500</string>
+
+    <!-- ad detail  page-->
+    <string name="detail_ad">AD Model:</string>
+    <string name="detail_cars">Cars:</string>
+    <string name="detail_left">left:</string>
+    <string name="detail_start">Start date:</string>
+    <string name="detail_end">End date:</string>
+    <string name="detail_order">Order Now</string>
+    <string name="driver_install_address">Install Address:</string>
+    <string name="choose_addr_placeholder">(Please select Address)</string>
+    <string name="text_ad_finished">AD Finished(return)</string>
+
+    <!-- popup windows -->
+    <string name="popup_ok">OK</string>
+    <string name="popup_all">all</string>
+    <string name="popup_position">position</string>
+    <string name="popup_pos_left">left</string>
+    <string name="popup_pos_right">right</string>
+    <string name="popup_pos_tail">tail</string>
+    <string name="popup_period">period(month)</string>
+    <string name="popup_period_lt_3">1-3</string>
+    <string name="popup_period_lt_6">3-6</string>
+    <string name="popup_period_gt_6">6+</string>
+    <string name="popup_adtype">type</string>
+    <string name="popup_adtype_cars">cars</string>
+    <string name="popup_adtype_kids">kids</string>
+    <string name="popup_adtype_electric">electric</string>
+    <string name="popup_adtype_others">others</string>
+
+
+    <!-- dummy test data -->
+    <string name="dummy_500">500</string>
+    <string name="dummy_200">200</string>
+    <string name="title_activity_driver_my_ads">My Advertises</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="dummy_alert_title">Notice</string>
+    <string name="dummy_alert_msg">TODO...</string>
+
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_ok">OK</string>
+    <string name="bt_continue">Continue</string>
+    <string name="driver_order_msg">Click \'OK\' to request  Advertise now, \'Cancel\' to cancel operation.</string>
+    <string name="driver_order_notice">Request Successfully. Please install AD before %s</string>
+    <string name="client_request_sended_msg">Your request has been handled, we will contact you soon!</string>
+    <string name="district_filter">District Filter:</string>
+    <string name="or">OR</string>
+
+    <string name="vendor_sign_ad_tab">Sign Ads</string>
+    <string name="title_activity_vendor_install_ad">VendorInstallAdActivity</string>
+    <string name="vendor_install_ad">Install AD</string>
+    <string name="vendor_uninstall_ad">Uninstall AD</string>
+    <string name="vendor_car_number">Car Number: </string>
+
+    <!-- Certificate page-->
+    <string name="cert_name">Name:</string>
+    <string name="cert_identity">Identity:</string>
+    <string name="cert_city">City:</string>
+    <string name="cert_status">Cert Status:</string>
+    <string name="cert_status_not">Not certificated</string>
+    <string name="cert_status_done">Certificated</string>
+    <string name="cert_status_pending">Pending</string>
+    <string name="cert_name_hint">Real name</string>
+    <string name="cert_identity_hint">Identity</string>
+    <string name="cert_city_hint">Shanghai</string>
+    <string name="cert_photo">Identity Photo:</string>
+    <string name="cert_contact_you">We will finish in 1 workday</string>
+    <string name="cert_submit">Submit</string>
+    <string name="cert_unbind">Unbind</string>
+    <string name="photo_dlg_title">Add photo</string>
+
+    <string name="contact_addr">Address:</string>
+    <string name="contact_phone">Phone:</string>
+    <string name="contact_email">Email:</string>
+    <string name="contact_addr_hint">Address</string>
+    <string name="contact_phone_hint">13800000000</string>
+    <string name="contact_email_hint">xxxx@abc.com</string>
+    <string name="userinfo_head">Head Image:</string>
+    <string name="not_bind">Not Bind</string>
+    <string name="fetch_pin">Fetch PIN</string>
+    <string name="bind_phone_pin">PIN</string>
+    <string name="bind_addr_hint">Please input address</string>
+    <string name="bind_phone_hint">Please input your phone</string>
+    <string name="bind_phone_pin_hint">Please input pin received</string>
+    <string name="bind_email_hint">Please input email address</string>
+    <string name="bind_title_address">Bind Address</string>
+    <string name="bind_title_phone">Bind Phone</string>
+    <string name="bind_title_email">Bind Email</string>
+
+    <string name="role_selection_title">Select Role</string>
+    <string-array name="role_selection_items">
+        <item>Driver</item>
+        <item>Client</item>
+        <!-- <item>Vendor</item> -->
+    </string-array>
+
+    <string-array name="photo_selector">
+        <item>Take Photo</item>
+        <item>Choose from Library</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="client_car_types">
+        <item>0-5W</item>
+        <item>5-10W</item>
+        <item>10-15W</item>
+        <item>15-20W</item>
+        <item>20-25W</item>
+        <item>25-30W</item>
+        <item>30W+</item>
+    </string-array>
+    <string-array name="client_ad_period">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>9 months</item>
+        <item>1 year</item>
+    </string-array>
+    <string name="title_activity_splash">CAR-AD</string>
+    <string name="title_activity_certificate">Certificate Info</string>
+    <string name="title_activity_contact">Contact Information</string>
+    <string name="title_activity_my_ad">My AD</string>
+    <string name="title_activity_user_info">User Info</string>
+    <string name="title_activity_my_car">My Cars</string>
+    <string name="title_activity_edit_ad">Edit Advertise</string>
+    <string name="title_activity_view_ad">Advertise</string>
+    <string name="title_activity_about_us">About</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_bank">Bank Info</string>
+    <string name="title_activity_coupon">Coupons</string>
+    <string name="title_activity_address_selection">Choose Install Address</string>
+
+    <string name="notice_login_needed">Please login first!</string>
+    <string name="common_save">Save</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_add">Add</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_ok">OK</string>
+    <string name="common_return">Return</string>
+
+    <string name="car_plate">Plate Number:</string>
+    <string name="car_brand">Brand:</string>
+    <string name="car_model">Model:</string>
+    <string name="car_plate_hint">Plate Number</string>
+    <string name="car_brand_hint">Brand</string>
+    <string name="car_model_hint">Model</string>
+
+    <string name="aboutus_site">Official Site:</string>
+    <string name="aboutus_phone">Phone:</string>
+    <string name="aboutus_wechat">We Chat</string>
+    <string name="aboutus_address">Address:</string>
+    <string name="aboutus_site_content">www.che.com</string>
+    <string name="aboutus_phone_content">4008 8888 66</string>
+    <string name="aboutus_wechat_content">chemeiti</string>
+    <string name="aboutus_address_content">WuJiaoChang 2000</string>
+    <string name="legal_chinese">版权所有 C 上海五角场车媒体股份有限公司</string>
+    <string name="legal_english">Copyright Shanghai Wujiaochang Che-Media Co.,Ltd. All Right Reserved</string>
+</resources>

@@ -1,0 +1,74 @@
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#ffffff"
+        tools:context=".ui.driver.DriverOrderFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/tab_header">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_ad"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                style="@style/tab_header_font" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_filter_bottom">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/sort"
+                    android:id="@+id/sortbutton"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:drawableRight="@drawable/arrows_down"
+                    android:layout_gravity="center_horizontal" />
+            </FrameLayout>
+
+            <View style="@style/separator_v" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/filter"
+                    android:id="@+id/filterbutton"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableRight="@drawable/arrows_down"
+                    android:background="?android:attr/selectableItemBackground"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/driverorderlist"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+

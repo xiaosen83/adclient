@@ -1,0 +1,26 @@
+﻿
+addr_provinces
+{"province_id":330, "province_name":"山东省", "city_ids":["330100000000","330200000000","330300000000"]}
+{"province_id":330, "province_name":"山东省", "city_ids":["330100000000","330200000000","330300000000"]}
+
+addr_citys
+{"city_id":"330100000000","city_name":"杭州市", "county_ids":["210102000000","210103000000","210104000000"]}
+
+addr_countys
+{"county_id":"210102000000","county_name":"和平区"}
+
+users
+{"phone":"13600000000", "name":"Cavin Wang", "sex": 0, "type":1, "state": 1, "auth_id":ObjectId(), "addr_name": "杭州市"}
+//sex:0, 1:male, 2:female type:1-driver/2-client/3-vendor/4-admin  state: 1-authed/2-pending/3-unauthed
+
+authenticate
+{"identity":"310105201200321243", "car_id":[ObjectId(),]}
+
+car_modes
+{"name":"Volve", "modle":"xxx", "level":2}
+
+ads
+{"company":"Apple", "start_date": new Date("2016-05-18"), "end_date":new Date("2016-09-18"), "logo":"apple.png", "model":"abc.png", "cars":500, "car_ids":[{"car_id":ObjectId(), "state":"pending", "position":"left"},]}
+
+cars
+{"id":"沪K5235", "mode_id": ObjectId(), "ads_ids":[{"ads_id":ObjectId(), "state":"pending", "position":"left"},]}

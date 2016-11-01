@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorMainStyle"
+    tools:context="com.ad.adeverywhere.ui.driver.DriverADActivity"
+    android:orientation="vertical">
+
+    <TextView style="@style/text_ad_detail_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/client_company" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView style="@style/text_ad_detail_left"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/ad_logo"
+            android:layout_marginRight="20dp"
+            android:contentDescription="" />
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:id="@+id/ad_company"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View style="@style/separator_for_text" />
+
+    <TextView style="@style/text_ad_detail_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_ad" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ad_modle"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:contentDescription=""
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+    <View style="@style/separator_for_text" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_cars" />
+
+        <TextView style="@style/text_ad_detail_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:id="@+id/ad_cars"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/separator_for_text" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_left" />
+
+        <TextView style="@style/text_ad_detail_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:id="@+id/ad_carleft"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/separator_for_text" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_start" />
+
+        <TextView style="@style/text_ad_detail_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-9-1"
+            android:id="@+id/ad_startdate"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/separator_for_text" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_end" />
+
+        <TextView style="@style/text_ad_detail_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-11-1"
+            android:id="@+id/ad_enddate"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View style="@style/separator_for_text" />
+
+    <LinearLayout
+        android:id="@+id/layoutAddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/driver_install_address"
+            android:id="@+id/textViewAddress" />
+
+        <TextView style="@style/text_ad_detail_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/driver_install_address"
+            android:text="@string/choose_addr_placeholder"
+            android:layout_weight="1"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageButton style="@style/text_ad_detail_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonAddress"
+            android:src="@drawable/arrows_right"
+            android:background="#ffffff"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View style="@style/separator_for_text" />
+
+    <Button style="@style/main_action_button"
+        android:text="@string/detail_order"
+        android:id="@+id/order"/>
+</LinearLayout>

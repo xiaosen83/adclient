@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_certificate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ad.adeverywhere.ui.common.CertificateActivity"
+    tools:showIn="@layout/activity_certificate"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView style="@style/text_for_me"
+            android:text="@string/cert_name" />
+
+        <EditText style="@style/text_for_me"
+            android:id="@+id/txName"
+            android:hint="@string/cert_name_hint"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:layout_span="2"/>
+
+    </TableRow>
+    <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/cert_identity" />
+
+            <EditText style="@style/text_for_me"
+                android:id="@+id/txIdentitiy"
+                android:hint="@string/cert_identity_hint"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:layout_span="2"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/cert_city" />
+
+            <TextView style="@style/text_for_me"
+                android:id="@+id/txCity"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:id="@+id/btCity"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_h_wide" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:id="@+id/rowStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/cert_status" />
+
+            <TextView style="@style/text_for_me"
+                android:id="@+id/txStatus"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:id="@+id/rowPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView style="@style/text_for_me"
+                android:text="@string/cert_photo" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/cert_take_photo"
+                android:id="@+id/iconTakePhoto"
+                android:layout_weight="1" />
+        </LinearLayout>
+       <View style="@style/separator_for_text" />
+        <TextView style="@style/text_for_me"
+            android:text="@string/cert_contact_you"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button style="@style/main_action_button"
+        android:text="@string/cert_submit"
+        android:id="@+id/btSubmit" />
+</LinearLayout>

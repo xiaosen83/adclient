@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ad.adeverywhere.ui.client.ClientPushFragment"
+    android:orientation="vertical"
+    android:background="@color/colorLightBackgroud">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tab_header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/title_ad"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            style="@style/tab_header_font" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView style="@style/text_client_order_title"
+            android:text="@string/client_fill_ad_info_title"
+            android:id="@+id/textView5" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMainStyle">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_client_ad"
+                android:text="@string/client_ad_description" />
+
+            <EditText style="@style/text_for_client_ad"
+                android:id="@+id/tx_description"
+                android:hint="@string/client_ad_description_hint"
+                android:layout_weight="1" />
+
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_client_ad"
+                android:text="@string/client_ad_cars" />
+
+            <EditText style="@style/text_for_client_ad"
+                android:id="@+id/tx_cars"
+                android:hint="@string/client_ad_cars_hint"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_client_ad"
+                android:text="@string/client_ad_car_type" />
+
+            <EditText style="@style/text_for_client_ad"
+                android:id="@+id/tx_car_type"
+                android:hint="@string/client_ad_car_type_hint"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:id="@+id/btSelCarType"
+                android:background="@android:color/transparent" />
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_client_ad"
+                android:text="@string/client_ad_car_company" />
+
+            <EditText style="@style/text_for_client_ad"
+                android:id="@+id/tx_car_company"
+                android:hint="@string/client_ad_car_company_hint"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_client_ad"
+                android:text="@string/client_ad_start_date" />
+
+            <EditText style="@style/text_for_client_ad"
+                android:id="@+id/tx_start_date"
+                android:hint="@string/client_ad_start_date_hint"
+                android:layout_weight="1" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:id="@+id/btSelStartDate"
+                android:background="@android:color/transparent" />
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView style="@style/text_for_client_ad"
+                android:text="@string/client_ad_period" />
+
+            <EditText style="@style/text_for_client_ad"
+                android:id="@+id/tx_period"
+                android:hint="@string/client_ad_period_hint"
+                android:layout_weight="1" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:id="@+id/btSelPeriod"
+                android:background="@android:color/transparent" />
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button style="@style/main_action_button"
+                android:text="@string/client_request"
+                android:id="@+id/bt_request_contact"
+                android:layout_span="2"
+                android:layout_weight="1.0"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

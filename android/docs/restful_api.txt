@@ -1,0 +1,28 @@
+
+
+Driver:
+GET
+GET	/api/ads?count=10&pos=100   
+GET	/api/ads?hotfive=1
+GET	/api/driver/:driverid/ads/
+GET	/api/driver/:driverid/ads/:adid
+GET	/api/driver/:driverid/cars/
+GET	/api/driver/:driverid/income
+GET	/api/driver/:driverid/coupon
+
+POST 	/api/driver/:driverid/ads/:adid 	{position:"left", carid:"xxxx"}
+DELETE 	/api/driver/:driverid/ads/:adid 	{position:"left", carid:"xxxx"}
+
+Client:
+GET	/api/client/income
+GET	/api/client/:clientid/ads/
+POST	/api/client/request {address:"", company:"", phone:"", cars:123, period:3}
+
+Vendor:
+POST	/api/vendor/ads/:adid/driver/:driverid {action:"install"}
+POST	/api/vendor/ads/:adid/driver/:driverid {action:"uninstall"}
+
+Admin:
+GET	/api/admin/ads?type=1 	type:{1:all, 2:pending, 3: ready}
+PUT	/api/admin/ads/:adid	{image:"", car_pos:"left"}
+

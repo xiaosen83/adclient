@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.driver.DriverMeFragment"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/rlUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/user_head"
+            android:id="@+id/imageView" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btUserInfo"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/arrows_right"
+            android:background="#ffffff"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/me_not_login_text"
+            android:id="@+id/tvUserStatus"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btUserInfo"
+            android:layout_toStartOf="@+id/btUserInfo"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View style="@style/separator"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:id="@+id/btMyAd">
+
+                <ImageButton style="@style/me_icon"
+                    android:src="@drawable/me_ad"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/myad"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+            <View style="@style/separator_v"></View>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:id="@+id/btMyCoupon">
+
+                <ImageButton style="@style/me_icon"
+                    android:src="@drawable/me_coupon"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mycoupon"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/separator"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/rowCert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView style="@style/me_icon_item"
+                app:srcCompat="@drawable/me_certificate" />
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/me_certificate" />
+
+            <TextView style="@style/text_for_me"
+                android:id="@+id/me_cert_status"
+                android:text="@string/me_not_certed"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:id="@+id/rowBank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView style="@style/me_icon_item"
+                app:srcCompat="@drawable/me_bank" />
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/me_bank" />
+
+            <TextView style="@style/text_for_me"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:id="@+id/rowHelp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView style="@style/me_icon_item"
+                app:srcCompat="@drawable/me_help"/>
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/me_help" />
+
+            <TextView style="@style/text_for_me"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:id="@+id/rowSettings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView style="@style/me_icon_item"
+                app:srcCompat="@drawable/me_setting" />
+
+            <TextView style="@style/text_for_me"
+                android:text="@string/me_settings" />
+
+            <TextView style="@style/text_for_me"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arrows_right"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:focusable="false"/>
+        </TableRow>
+        <TableRow><View style="@style/separator_for_text" android:layout_span="2" android:layout_weight="1"/></TableRow>
+    </TableLayout>
+
+    <Button style="@style/main_action_button"
+        android:text="@string/me_logout_text"
+        android:id="@+id/btLogout" />
+
+</LinearLayout>

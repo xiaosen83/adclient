@@ -1,0 +1,104 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.driver.DriverHomeFragment"
+        android:orientation="vertical"
+        android:background="@color/colorMainStyle">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/tab_header">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_home_driver"
+                android:id="@+id/txBarTitle"
+                android:layout_gravity="center_horizontal"
+                style="@style/tab_header_font" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:id="@+id/ad_pager" />
+            <LinearLayout
+                android:id="@+id/viewGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="-25px"
+                android:gravity="right"></LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout style="@style/text_for_overview_msg"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="@string/driver_join_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15"
+                    android:layout_weight="0.7" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txDriverJoined" />
+            </LinearLayout>
+            <LinearLayout style="@style/text_for_overview_msg"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:text="@string/client_join_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:layout_weight="0.7" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txClientJoined" />
+            </LinearLayout>
+
+            <View style="@style/separator"/>
+            <ListView
+                android:id="@+id/listViewHotAds"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0" />
+
+            <Button style="@style/main_action_button"
+                android:text="@string/order_now"
+                android:id="@+id/home_order_now" />
+        </LinearLayout>
+
+    </LinearLayout>

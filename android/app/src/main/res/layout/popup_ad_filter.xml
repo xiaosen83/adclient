@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/popup_filter">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.2"
+        android:contentDescription="" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:alpha="1">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/popup_position"
+            android:id="@+id/popup_position" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button style="@style/popup_button"
+                android:text="@string/popup_pos_left"
+                android:id="@+id/popup_pos_left" />
+
+            <Button style="@style/popup_button"
+                android:text="@string/popup_pos_right"
+                android:id="@+id/popup_pos_right" />
+
+            <Button style="@style/popup_button"
+                android:text="@string/popup_pos_tail"
+                android:id="@+id/popup_pos_tail" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/popup_period"
+            android:id="@+id/popup_period" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button style="@style/popup_button"
+                android:text="@string/popup_period_lt_3"
+                android:id="@+id/popup_period_lt_3" />
+
+            <Button style="@style/popup_button"
+                android:text="@string/popup_period_lt_6"
+                android:id="@+id/popup_period_lt_6" />
+
+            <Button style="@style/popup_button"
+                android:text="@string/popup_period_gt_6"
+                android:id="@+id/popup_period_gt_6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/popup_ok"
+                android:id="@+id/okbutton" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,283 @@
+﻿<resources>
+    <string name="app_name">AdEverywhere</string>
+    <string name="action_settings">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">首页</string>
+    <string name="me">我的</string>
+    <string name="setting">设置</string>
+    <string name="driver_order">接广告</string>
+    <string name="title_activity_login">登陆</string>
+    <string name="client_push">投广告</string>
+    <string name="portal_join_drivers">%d 位司机已加入我们</string>
+    <string name="portal_join_clients">%d 客户已投放广告</string>
+    <string name="title_home_driver">司机</string>
+    <string name="title_home_client">客户</string>
+    <string name="title_home">首页</string>
+    <string name="title_ad">广告</string>
+    <string name="title_me">我的</string>
+    <string name="title_reserve_ad">广告预约</string>
+    <string name="text_edit">编辑</string>
+    <string name="text_delete">删除</string>
+
+    <!-- Home page -->
+    <string name="income_day">今日收益:</string>
+    <string name="income_month">本月收益:</string>
+    <string name="income_total">总收益:</string>
+    <string name="order_now">马上接广告</string>
+    <string name="ad_status_pending">热招中</string>
+    <string name="ad_status_ready">广告中</string>
+    <string name="ad_status_finished">已完成</string>
+    <string name="period_format">%d 个月</string>
+    <string name="car_format">%d 辆</string>
+    <string name="car_left_format">%1$d/%2$d 辆</string>
+    <string name="driver_join_number">已加入我们的司机:</string>
+    <string name="client_join_number">已通过我们投广告的客户:</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">邮件</string>
+    <string name="prompt_phone">电话</string>
+    <string name="prompt_password">密码 (可选)</string>
+    <string name="send_sms_code">验证码</string>
+    <string name="action_sign_in">登陆或者注册</string>
+    <string name="action_sign_in_short">登陆</string>
+    <string name="error_invalid_email">电子邮件地址不正确</string>
+    <string name="error_invalid_password">密码长度不符合要求</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">这个选项必须填写</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sign_in_diff_portal">切换登陆入口</string>
+    <string name="register">没有账户？马上加入</string>
+    <string name="title_activity_login_driver">登录 (司机)</string>
+    <string name="title_activity_login_client">登录 (客户)</string>
+    <string name="title_activity_login_vendor">登录 (代理商)</string>
+    <string name="role_selection_driver">司机</string>
+    <string name="role_selection_client">客户</string>
+    <string name="role_selection_vendor">代理商</string>
+
+    <string name="title_activity_portal">车媒体</string>
+    <string name="driver_portal">我是司机</string>
+    <string name="client_portal">我是客户</string>
+    <string name="vendor_portal">代理商</string>
+
+    <!-- me page-->
+    <string name="myad">我的广告</string>
+    <string name="mycar">我的车</string>
+    <string name="mycoupon">优惠券</string>
+    <string name="me_info">个人信息</string>
+    <string name="me_certificate">认证</string>
+    <string name="me_security">安全</string>
+    <string name="me_help">联系我们</string>
+    <string name="me_bank">银行卡</string>
+    <string name="me_settings">设置</string>
+    <string name="me_info_">基本信息</string>
+    <string name="me_certificate_">身份证，车牌号，车型</string>
+    <string name="me_security_">修改密码</string>
+    <string name="me_help_">在线联系我们</string>
+    <string name="me_expect_income">预期收益:</string>
+    <string name="me_tab_ad_current">广告中</string>
+    <string name="me_tab_ad_pending">热招中</string>
+    <string name="me_tab_ad_history">已完成</string>
+    <string name="me_not_login_text">未登录</string>
+    <string name="me_logout_text">注销</string>
+    <string name="me_income">收益:</string>
+    <string name="me_certed">已认证</string>
+    <string name="me_not_certed">未认证</string>
+
+    <!-- order page -->
+    <string name="sort">排序</string>
+    <string name="filter">过滤</string>
+    <string name="order_cars">车辆需求: </string>
+    <string name="order_left">剩余: </string>
+    <string name="order_period">期限: </string>
+    <string name="order_month">月</string>
+    <string name="order_start">始:</string>
+
+    <!-- client push page -->
+    <string name="client_fill_ad_info_title">填写广告信息</string>
+    <string name="client_company">公司名称:</string>
+    <string name="client_phone">电话号码:</string>
+    <string name="client_address">地址:</string>
+    <string name="client_cars">汽车需求:</string>
+    <string name="client_car_type">类型:</string>
+    <string name="client_ad_description">描述:</string>
+    <string name="client_ad_cars">车辆:</string>
+    <string name="client_ad_car_type">车型:</string>
+    <string name="client_ad_car_company">车品牌:</string>
+    <string name="client_ad_start_date">开始:</string>
+    <string name="client_ad_period">期限:</string>
+    <string name="client_ad_description_hint">广告内容概述</string>
+    <string name="client_ad_cars_hint">500</string>
+    <string name="client_ad_car_type_hint">10-15万</string>
+    <string name="client_ad_car_company_hint">沃尔沃(可选)</string>
+    <string name="client_ad_start_date_hint">2016-09-01</string>
+    <string name="client_ad_period_hint">3 个月</string>
+    <string name="client_request">马上申请</string>
+
+    <string name="client_throw">马上去投</string>
+    <string name="client_income">我的收益</string>
+    <string name="client_income_day">今日</string>
+    <string name="client_income_month">当月</string>
+    <string name="client_income_total">总共</string>
+    <string name="client_my_cars">我的车</string>
+
+    <string name="me_address">五角场淞沪路1500号</string>
+
+    <!-- ad detail  page-->
+    <string name="detail_ad">广告模版：</string>
+    <string name="detail_cars">总需求：</string>
+    <string name="detail_left">剩余车辆：</string>
+    <string name="detail_start">开始：</string>
+    <string name="detail_end">结束：</string>
+    <string name="detail_order">马上预约</string>
+    <string name="driver_install_address">安装广告地址:</string>
+    <string name="choose_addr_placeholder">(请选择地址)</string>
+    <string name="text_ad_finished">广告已完成(返回)</string>
+
+    <!-- popup windows -->
+    <string name="popup_ok">确定</string>
+    <string name="popup_all">全部</string>
+    <string name="popup_position">安装位置</string>
+    <string name="popup_pos_left">左侧</string>
+    <string name="popup_pos_right">右侧</string>
+    <string name="popup_pos_tail">车尾</string>
+    <string name="popup_period">投放期限(月)</string>
+    <string name="popup_period_lt_3">1-3</string>
+    <string name="popup_period_lt_6">3-6</string>
+    <string name="popup_period_gt_6">6+</string>
+    <string name="popup_adtype">广告分类</string>
+    <string name="popup_adtype_cars">车</string>
+    <string name="popup_adtype_kids">母婴</string>
+    <string name="popup_adtype_electric">家电</string>
+    <string name="popup_adtype_others">其他</string>
+
+
+    <!-- dummy test data -->
+    <string name="dummy_500">500</string>
+    <string name="dummy_200">200</string>
+    <string name="title_activity_driver_my_ads">我的广告</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="dummy_alert_title">注意</string>
+    <string name="dummy_alert_msg">装修中，敬请期待...</string>
+
+    <string name="bt_cancel">取消</string>
+    <string name="bt_ok">确定</string>
+    <string name="bt_continue">继续</string>
+    <string name="driver_order_msg">点击 \'确定\' 马上预约广告, 否则 取消当前操作.</string>
+    <string name="driver_order_notice">预约成功. 请在 %s 之前到预约地址安装广告.</string>
+    <string name="client_request_sended_msg">您的请求已经发送, 我们将在3个工作日内联系您，为您量身打造广告!</string>
+    <string name="district_filter">地址过滤:</string>
+    <string name="or">或者</string>
+
+    <string name="vendor_sign_ad_tab">签收广告</string>
+    <string name="title_activity_vendor_install_ad">安装广告</string>
+    <string name="vendor_install_ad">安装广告</string>
+    <string name="vendor_uninstall_ad">卸载广告</string>
+    <string name="vendor_car_number">车牌号: </string>
+
+    <!-- Certificate page-->
+    <string name="cert_name">姓名:</string>
+    <string name="cert_identity">身份证:</string>
+    <string name="cert_city">所属城市:</string>
+    <string name="cert_status">认证状态:</string>
+    <string name="cert_status_not">未认证</string>
+    <string name="cert_status_done">已认证</string>
+    <string name="cert_status_pending">审核中</string>
+    <string name="cert_name_hint">真实姓名</string>
+    <string name="cert_identity_hint">身份证号码</string>
+    <string name="cert_city_hint">上海</string>
+    <string name="cert_photo">身份证照:</string>
+    <string name="cert_contact_you">我们将在1个工作日内完成审核</string>
+    <string name="cert_submit">提交</string>
+    <string name="cert_unbind">解绑</string>
+    <string name="photo_dlg_title">添加图片</string>
+
+    <string name="contact_addr">地址:</string>
+    <string name="contact_phone">电话:</string>
+    <string name="contact_email">邮件:</string>
+    <string name="contact_addr_hint">五角场2000号</string>
+    <string name="contact_phone_hint">13800000000</string>
+    <string name="contact_email_hint">xxxx@abc.com</string>
+    <string name="userinfo_head">Head Image:</string>
+    <string name="not_bind">Not Bind</string>
+    <string name="fetch_pin">Fetch PIN</string>
+    <string name="bind_phone_pin">PIN</string>
+    <string name="bind_addr_hint">Please input address</string>
+    <string name="bind_phone_hint">Please input your phone</string>
+    <string name="bind_phone_pin_hint">Please input pin received</string>
+    <string name="bind_email_hint">Please input email address</string>
+    <string name="bind_title_address">Bind Address</string>
+    <string name="bind_title_phone">Bind Phone</string>
+    <string name="bind_title_email">Bind Email</string>
+
+    <string name="role_selection_title">切换登录入口</string>
+    <string-array name="role_selection_items">
+        <item>司机</item>
+        <item>客户</item>
+        <!-- <item>代理商</item> -->
+    </string-array>
+
+    <string-array name="photo_selector">
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="client_car_types">
+        <item>0-5万</item>
+        <item>5-10万</item>
+        <item>10-15万</item>
+        <item>15-20万</item>
+        <item>20-25万</item>
+        <item>25-30万</item>
+        <item>30万+</item>
+    </string-array>
+    <string-array name="client_ad_period">
+        <item>1 个月</item>
+        <item>3 个月</item>
+        <item>6 个月</item>
+        <item>9 个月</item>
+        <item>1 年</item>
+    </string-array>
+    <string name="title_activity_splash">车媒体</string>
+    <string name="title_activity_certificate">认证信息</string>
+    <string name="title_activity_contact">联系方式</string>
+    <string name="title_activity_my_ad">我的广告</string>
+    <string name="title_activity_user_info">用户信息</string>
+    <string name="title_activity_my_car">我的车</string>
+    <string name="title_activity_edit_ad">编辑广告</string>
+    <string name="title_activity_view_ad">广告信息</string>
+    <string name="title_activity_about_us">关于</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_bank">支付信息</string>
+    <string name="title_activity_coupon">优惠券</string>
+    <string name="title_activity_address_selection">选择安装地址</string>
+
+    <string name="notice_login_needed">请先登录!</string>
+    <string name="common_save">保存</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_add">添加</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_ok">确定</string>
+    <string name="common_return">返回</string>
+
+    <string name="car_plate">车牌号:</string>
+    <string name="car_brand">品牌:</string>
+    <string name="car_model">车型号:</string>
+    <string name="car_plate_hint">沪A12345</string>
+    <string name="car_brand_hint">大众</string>
+    <string name="car_model_hint">途安</string>
+
+    <string name="aboutus_site">官方网址:</string>
+    <string name="aboutus_phone">联系电话:</string>
+    <string name="aboutus_wechat">微信号</string>
+    <string name="aboutus_address">公司地址:</string>
+    <string name="aboutus_site_content">www.che.com</string>
+    <string name="aboutus_phone_content">4008 8888 66</string>
+    <string name="aboutus_wechat_content">chemeiti</string>
+    <string name="aboutus_address_content">五角场淞沪路1500号</string>
+    <string name="legal_chinese">版权所有 C 上海五角场车媒体股份有限公司</string>
+    <string name="legal_english">Copyright Shanghai Wujiaochang Che-Media Co.,Ltd. All Right Reserved</string>
+</resources>

@@ -1,0 +1,13 @@
+CREATE TABLE ad(id INTEGER PRIMARY KEY autoincrement, company TEXT,cars INTEGER,start_date TEXT,end_date TEXT,logo TEXT,model TEXT,user_id INTEGER);
+
+CREATE TABLE user(id INTEGER PRIMARY KEY autoincrement, name TEXT,type TEXT,passwd TEXT,city_id INTEGER);
+
+CREATE TABLE car(id INTEGER PRIMARY KEY autoincrement, plate_num TEXT,model TEXT,user_id INTEGER);
+
+CREATE TABLE ad_car(id INTEGER PRIMARY KEY autoincrement, position TEXT,status TEXT,car_id INTEGER,ad_id INTEGER);
+
+CREATE TABLE city(id INTEGER PRIMARY KEY autoincrement, code TEXT,name TEXT);
+
+CREATE TABLE vendor(id INTEGER PRIMARY KEY autoincrement, type TEXT, addr TEXT,city_id INTEGER, user_id INTEGER);
+
+INSERT INTO ad (company, cars, start_date, end_date, logo, model, user_id) VALUES ('Apple', 300, '2016-09-01', '2016-11-01', 'logo1.png', 'model1.png', 1);

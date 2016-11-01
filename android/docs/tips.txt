@@ -1,0 +1,40 @@
+CURL:
+https://developer.github.com/v3/
+
+curl -i https://api.github.com/users/octocat/orgs
+curl -i "https://api.github.com/repos/vmg/redcarpet/issues?state=closed"
+curl -v -L "http://10.103.62.132:3000/api/ads?count=2&pos=2"
+
+curl -X POST -H "Content-Type: application/json" -d '{"key":"val"}' URL
+
+For POST, PATCH, PUT, and DELETE requests, parameters not included in the URL should be encoded as JSON with a Content-Type of 'application/json':
+
+curl -i -u username -d '{"scopes":["public_repo"]}' https://api.github.com/authorizationd
+
+#########upload file with curl#############33
+ curl -i -X POST -H "Content-Type: multipart/form-data" -F"modle=@/tmp/ss.png;" -F "logo=@/tmp/123"  -F user=cwang  http://10.103.62.132:3000/newad
+
+curl -i -X POST -H "Content-Type: multipart/form-data" 
+-F "data=@test.mp3;userid=1234" http://mysuperserver/media/upload/
+##############################################
+
+MONGODB
+db.mycol.update({'title':'MongoDB Overview'},{$set:{'title':'New MongoDB Tutorial'}},{multi:true})
+
+save replace current doc
+>db.mycol.save(
+   {
+      "_id" : ObjectId(5983548781331adf45ec7), "title":"Tutorials Point Overview",
+         "by":"Tutorials Point"
+   }
+)
+
+>var result = db.users.findOne({"name":"Tom Benzamin"},{"address_ids":1})
+>var addresses = db.address.find({"_id":{"$in":result["address_ids"]}})
+
+ ids=db.ads.find({}, {_id: 1}).limit(3).toArray().map(function(doc){return doc._id});
+db.ads.remove({_id: {$in: ids}})
+
+DEBUG=express* node server.js
+
+adb -d shell "run-as com.ad.adeverywhere cat /data/data/com.ad.adeverywhere/databases/adcar.db" > adcar.db
