@@ -218,4 +218,8 @@
         android:text="@string/me_logout_text"
         android:id="@+id/btLogout" />
 
+    <Button style="@style/main_action_button"
+        android:text="Upload"
+        android:id="@+id/btTest" />
+
 </LinearLayout>

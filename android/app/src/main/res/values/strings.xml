@@ -281,4 +281,11 @@
     <string name="aboutus_address_content">WuJiaoChang 2000</string>
     <string name="legal_chinese">版权所有 C 上海五角场车媒体股份有限公司</string>
     <string name="legal_english">Copyright Shanghai Wujiaochang Che-Media Co.,Ltd. All Right Reserved</string>
+    <string name="title_activity_driver_sync_ad">DriverSyncAdActivity</string>
+
+    <!-- Bluetooth Device -->
+    <string name="bt_device_not_support">Device does not support Bluetooth</string>
+    <string name="bt_not_enabled">Bluetooth not enabled</string>
+    <string name="bt_paired_device_format">Paired Device: %s</string>
+
 </resources>

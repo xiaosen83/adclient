@@ -90,6 +90,17 @@ public class DriverMeFragment extends Fragment {
 
         new LoadUserCertificateTask().execute();
 
+        Button btTest = (Button)v.findViewById(R.id.btTest);
+        if(btTest != null)
+        {
+            btTest.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(getActivity(), DriverSyncAdActivity.class);
+                    startActivity(i);
+                }
+            });
+        }
         return v;
     }
 
